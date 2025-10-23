@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 Flask
 numpy
 scikit-learn
 joblib
 requests
+=======
+Flask
+numpy
+scikit-learn
+joblib
+requests
+>>>>>>> 76c679a8f688b5f8bcdf119db097bc23bd88969b
 APScheduler
