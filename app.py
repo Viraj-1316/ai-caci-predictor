@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, request, jsonify
 from apscheduler.schedulers.background import BackgroundScheduler
 import joblib
@@ -117,7 +116,7 @@ if __name__ == '__main__':
 
     # Start the Flask Web Service (use_reloader=False is critical to prevent duplicate schedulers)
     port = int(os.environ.get('PORT', 5000))
-=======
+
 from flask import Flask, request, jsonify
 from apscheduler.schedulers.background import BackgroundScheduler
 import joblib
@@ -236,5 +235,5 @@ if __name__ == '__main__':
 
     # Start the Flask Web Service (use_reloader=False is critical to prevent duplicate schedulers)
     port = int(os.environ.get('PORT', 5000))
->>>>>>> 76c679a8f688b5f8bcdf119db097bc23bd88969b
+
     app.run(host='0.0.0.0', port=port, use_reloader=False)
